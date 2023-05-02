@@ -1,14 +1,14 @@
 package lectures.part2oops
 
-object OOBasics extends App {
+object OOBasic extends App {
 
   val person  = new Person("john",24)
   println(person.x)
-  person.greet("nitheesh")
+  person.greet("nitheesssssh")
   person.greet()
-//  val person = Person()
-//  println(person.name)
-//  println(person.age)
+  //  val person = Person()
+  //  println(person.name)
+  //  println(person.age)
 
 
 }
