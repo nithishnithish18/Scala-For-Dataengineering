@@ -6,14 +6,13 @@ object Objects  {
     //static- class - level functionality
     val N_EYES  = 2
     def canFly: Boolean = false
-
     def apply(mother: Person, father: Person): Person = new Person("Bobbie")
-
   }
 
   class Person(val name: String){
     //Instance-level functionality
   }
+
   def main(args: Array[String]): Unit = {
 
     println(Person.N_EYES)
